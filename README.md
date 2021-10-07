@@ -1,5 +1,7 @@
 # Braze In-app message
 
+Vimeo Link : https://vimeo.com/625349090
+
 ## Getting started
 
 ### Step 1 : Download your `google-services.json` file
