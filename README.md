@@ -482,6 +482,6 @@ Pull out `query selector` and just use `onclick` attribute
 
 ## Conclusion
 
-The template that Braze provided codes already contain problematic parts. Our customers possible to avoid though the modified html codes as I attached before but in my opition, those modifications are temporary solution because most of our customers are `marketer` that means they are not familiar with html and so much possible to make mistake without developers confirmation.
+The template that Braze provided codes already contain problematic parts. Our customers possible to avoid though the modified html codes as I attached before but in my opition, those modifications are temporary solution because most of our customers are `marketer` that means they are not familiar with html and so much easily possible to make mistake without developers confirmation.
 
 I hope fix the overlay issue wheter whatever html code is attached into in app message.
