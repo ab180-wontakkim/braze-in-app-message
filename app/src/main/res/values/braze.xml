@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="com_appboy_api_key">YOUR_API_KEY</string>
+    <string translatable="false" name="com_appboy_custom_endpoint">YOUR_ENDPOINT</string>
+    <string translatable="false" name="com_appboy_default_notification_channel">Default</string>
+    <string translatable="false" name="com_appboy_firebase_cloud_messaging_sender_id">YOUR_SENDER_ID</string>
+    <drawable name="com_appboy_push_small_notification_icon">@drawable/ic_notification</drawable>
+
+    <bool name="com_appboy_handle_push_deep_links_automatically">true</bool>
+    <bool name="com_appboy_firebase_cloud_messaging_registration_enabled">true</bool>
+</resources>
