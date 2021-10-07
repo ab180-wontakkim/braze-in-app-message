@@ -4,7 +4,7 @@
 
 ### Step 1 : Download your `google-services.json` file
 
-Go to your fire base console page and download your `google-services.json` and place `$rootProject/app` folder
+Go to your firebase console page and download your `google-services.json` and place `$rootProject/app` folder
 
 ![image](./images/google-services.png)
 
@@ -16,7 +16,7 @@ Open `$rootProject/app/src/main/res/values/braze.xml` file and fill `com_appboy_
 
 ### Failure scenario
 
-1. Send in-app message with following html code
+1. Send in-app message with following HTML code
 
 ``` html
 <!doctype html>
@@ -397,8 +397,8 @@ Open `$rootProject/app/src/main/res/values/braze.xml` file and fill `com_appboy_
 <a href="appboy://close">X</a>
 </html>
 ```
-2. Click primary or secondary button and check deep link activity is opened
-3. Click system back button and verify html overlay remains forever
+2. Click the primary or secondary button and check deep link activity is opened
+3. Click the system back button and verify HTML overlay remains forever
 
 ## How to avoid this situation?
 
@@ -482,6 +482,6 @@ Pull out `query selector` and just use `onclick` attribute
 
 ## Conclusion
 
-The template that Braze provided codes already contain problematic parts. Our customers possible to avoid though the modified html codes as I attached before but in my opition, those modifications are temporary solution because most of our customers are `marketer` that means they are not familiar with html and so much easily possible to make mistake without developers confirmation.
+The template that Braze provided codes already contain problematic parts. Our customers are possible to avoid though the modified HTML codes as I attached before but in my opinion, those modifications are the temporary solution because most of our customers are `Marketers` that means they are not familiar with HTML and so much easily possible to make mistake without developers confirmation.
 
-I hope fix the overlay issue wheter whatever html code is attached into in app message.
+I hope to fix the overlay issue whether whatever HTML code is attached to the in-app message.
