@@ -6,7 +6,7 @@
 
 Go to your fire base console page and download your `google-services.json` and place `$rootProject/app` folder
 
-![](images/play-services.png)
+![image](./images/google-services.png)
 
 ### Step 2 : Set your Braze dashboard data
 
